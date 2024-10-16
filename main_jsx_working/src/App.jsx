@@ -1,8 +1,15 @@
 import React from 'react'
-
+import Chai from './Chai'
 function App() {
+
+  const userName="Sudhir jha"
   return (
-    <div>App</div>
+    <>
+    <h1>Hello {userName}  | this is content from main page</h1>
+    <Chai/>
+
+    
+    </>
   )
 }
 
