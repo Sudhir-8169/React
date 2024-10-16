@@ -21,7 +21,11 @@
 > - Open the tailwind.config.js file and configure the content array to include your React files:
     /** @type {import('tailwindcss').Config} */
     module.exports = {
-    content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+
+    content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
     theme: {
     extend: {},
     },
